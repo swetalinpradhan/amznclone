@@ -1,0 +1,326 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;   
+}
+.navbar{
+    height:65px;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* ---box1--- */
+.nav-logo{
+    height: 55px;
+    width: 113px;
+}
+.logo{
+    height: 55px;
+    background-image: url(amazon.png);
+    width: 100%;
+    background-size: cover;
+
+}
+.border{
+    border: 1px solid transparent;
+}
+.border:hover{
+    border:1px solid white;
+}
+
+
+/* -----box2----- */
+.del{
+    font-size: 12px;
+    color: #CCCCCC;
+    margin-left: 14px;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+.con{
+    font-size: 1rem;
+    color: #FFFFFF;
+    margin-left: 2px;
+}
+/* ---box3--- */
+.nav-search{
+    background-color:rgb(223, 173, 111);
+    width:620px;
+    height:40px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.nav-search:hover{
+    border: 2px solid orange;
+}
+.search-select{
+    width: 50px;
+    background-color: #f3f3f3;
+    text-align: center;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+    border:none;
+}
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border:none;
+    
+}
+.search-icon{
+    color: #000;
+    width:45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+}
+/* ---box4--- */
+.nav-country{
+ display: flex;
+ align-items: center;
+}
+.usimg{
+    background-image: url(usalogo.png);
+    background-size: cover;
+    height: 18px;
+    width:24px;
+}
+.navlng{
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    font-size: 1rem;
+}
+/* ---box5,6--- */
+.signin-first{
+    font-size: 0.7rem;
+}
+.signin-second{
+    border: none;
+    background-color: transparent;  
+    color: #fff; 
+    font-size: 0.9rem;
+    font-weight: 550;
+}
+
+/* --box7--- */
+.nav-cart{
+    display: flex;
+    align-items: center;
+}
+.cart-icon{
+    color:#fff;
+    font-size: 30px;
+}
+/*----------------navbar-second---------- */
+.newnav-second{
+    height: 39px;
+    background-color: #2b2727;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.all-menu{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-size: 1rem;
+    gap: 5px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+ul{
+    display: flex;
+    align-items: center;
+    width:100%;
+}
+li{
+    list-style-type: none;
+}
+ul li a{
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.85rem;
+    padding: 10px;
+}
+.deals p{
+    color: #fff;
+    white-space: nowrap;
+    margin-right: 20px;
+    font-size: 0.95rem;
+}
+/* ----christmas image-------- */
+.body-image-start{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-size: cover;
+    background-image: url("https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/71j8damPo5L._SX3000_.jpg");
+}
+.body-image-start p {
+    background-color: #fff;
+    text-align: center;
+    position: relative;
+    width: 90%;
+    bottom: 20px;
+    padding: 10px 0px 10px;
+    font-size: 0.8rem;
+}
+.body-image-start p a{
+    color: rgb(63, 143, 143);
+    text-decoration: none;
+}
+
+/* ----------shop section-------- */
+.all-category{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10px;
+    background-color: rgb(222, 193, 208);
+    flex-wrap: wrap;
+}
+
+.box{
+    height: 300px;
+    width: 23%;
+    background-color: #fff;
+    padding: 20px 0px 20px;
+    margin-top: 15px;
+    
+}
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.box-content p{
+    margin-top: 15px;
+    color: rgb(63, 143, 143);
+    font-size: 0.8rem;
+}
+.box-image{
+    height: 220px;
+    margin-top: 1rem;
+    background-size: cover;
+    margin-bottom: 1rem;
+}
+.multiple-shop{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10px;
+    flex-wrap: wrap;
+}
+.box-image-multiple{
+    height:80px ;
+    width: 110px;
+    margin-top:0.4rem;
+    background-size: cover;
+    margin-bottom: 1rem;
+}
+/* --------Best seller section------ */
+.best-seller-section{
+    background-color: rgb(222, 193, 208);
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+.best-seller-content{
+    background-color: #fff;
+    width: 95.6%;
+    padding: 10px;
+}
+.all-bestseller{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+.bestsell-image{
+    height: 220px;
+    background-size: cover;
+    
+}
+/* -----best deal section----- */
+.best-deal-section{
+    background-color: rgb(222, 193, 208);
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.all-best-deal{
+    background-color: #fff;
+    width: 95.6%;
+    padding: 10px;
+}
+.deal-head{
+    display: flex;
+    align-items: center;
+}
+.dealimage-surround{
+    height: 240px;
+    width: 220px;
+    padding: 5px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fcf6f6;
+    margin-top: 10px;
+}
+.bestdeal-image{
+    height: 200px;
+    background-size: cover;
+}
+.deal-percent{
+    color: #fff;
+    background-color: rgb(184, 51, 51);
+    padding: 5px 3px;
+    display: flex;
+    border-radius: 2px;
+}
+.all-deal-off-value{
+    display: flex;
+    align-items: center;
+    font-size: 0.8rem;
+}
+.all-deal-image-content{
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer-content-start{
+    height: 40px;
+    text-align: center;
+    color: #fcf6f6;
+    background-color: #2f2532;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-content-mid{
+    padding-top: 4%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: #1c1b1b;
+    padding-bottom: 3%;
+}
+.footer-content-all p{
+    color: #fff;
+    font-size: 12px;
+    line-height: 2;
+}
+.footer-content-all b{
+    color: #fff;
+}
